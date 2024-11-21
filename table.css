@@ -17,10 +17,9 @@ th {
     font-size: 1.5em;
     background-color: #f4f4f4;
 }
-
-/* Break, Lunch, and Activities Styling */
-.break, .lunch, .activities {
-    background-color: #e0e0e0;
+/* Morning-preps ,Break, Lunch, and Activities Styling */
+.Morning-preps, .break, .lunch, .activities {
+    background-color: rgb(182, 176, 176);
     font-weight: bold;
 }
 

@@ -3,41 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Class Timetable</title>
+    <title> Class Timetable for 2024/2025</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
      /* General Table Styling */
 table {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     border-collapse: collapse;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     border-width: 2px;
 }
 
 th, td {
-    border: 1px solid greenyellow;
+    border: 2px solid rgb(133, 134, 131);
     padding: 20px;
+    
 }
 
 /* Header Row Styling */
 th {
     font-size: 1.5em;
-    background-color: white;
+    background-color: rgb(180, 247, 224);
 }
 
 /* Morning-preps ,Break, Lunch, and Activities Styling */
-.Morning-preps, .break, .lunch, .activities {
-    background-color: rgb(182, 176, 176);
-    font-weight: bold;
+.break, .lunch, .activities, .Morning-preps{
+    background-color: rgba(182, 176, 176, 0.959);
+    font-weight: bolder;
+}
+/* .Morning-preps*/{
+    background-color: rgba(182, 176, 176, 0.959);
+    font-weight: bolder;
 }
 
 /* Time Slot Column */
 td:first-child {
-    width: 20px;
+    width: 150px;
+    background-color: rgb(231, 221, 221););
 }
 
 /* Day Columns */
@@ -65,7 +71,7 @@ td {
     <table>
         <thead>
             <tr>
-                <th>Time</th>
+                <th>TIME</th>
                 <th>MONDAY</th>
                 <th>TUESDAY</th>
                 <th>WEDNESDAY</th>
