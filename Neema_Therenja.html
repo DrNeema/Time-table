@@ -16,6 +16,7 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     border-width: 2px;
+    background-color: aliceblue;
 }
 
 th, td {
@@ -27,16 +28,18 @@ th, td {
 /* Header Row Styling */
 th {
     font-size: 1.5em;
-    background-color: rgb(180, 247, 224);
+    background-color: rgb(204, 230, 220);
 }
 
-/* Morning-preps ,Break, Lunch, and Activities Styling */
+/* Break, Lunch, and Activities Styling */
 .break, .lunch, .activities, .Morning-preps{
     background-color: rgba(182, 176, 176, 0.959);
     font-weight: bolder;
 }
-/* .Morning-preps*/{
-    background-color: rgba(182, 176, 176, 0.959);
+ /*.Morning-preps*/
+ .Morning-preps
+ {
+    background-color: grey;
     font-weight: bolder;
 }
 
@@ -54,6 +57,7 @@ td:nth-child(n+2):nth-child(-n+6) {
 /* Ensuring Equal Width for Time Slots */
 td:nth-child(n+2) {
     width: 120px;
+
 }
 
 /* Merging Cells */
@@ -136,7 +140,7 @@ td {
                 <td>I.C.T</td>
                 <td>Home Science</td>
                 <td>Art and craft</td>
-                <td></td>
+                <td colspan="2" ></td>
             </tr>
             <tr>
                 <td>2:30-3:30</td>
@@ -155,8 +159,3 @@ td {
     </table>
 </body>
 </html>
-
-
-
-
-
